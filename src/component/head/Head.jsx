@@ -3,6 +3,7 @@ import './head.css'
 import logo from './logo 1.png'
 import flag from './flag.png'
 import analizator from './analizator.png'
+import { NavLink } from 'react-router-dom';
 
 function Head(props) {
     return (
@@ -69,12 +70,12 @@ function Head(props) {
                 {/* navbar */}
                 {/* menu */}
                 <div className="menu">
-                    <a href="#" className="a">МАГАЗИН</a>
-                    <a href="#" className="a2">О КОМПАНИИ <div className='dot'></div></a>
-                    <a href="#" className="a">ПРОДУКЦИЯ</a>
-                    <a href="#" className="a">УСЛУГИ</a>
-                    <a href="#" className="a">АКЦИИ И НОВОСТИ</a>
-                    <a href="#" className="a6">ОБРАТНАЯ СВЯЗЬ</a>
+                    <NavLink className="a">МАГАЗИН</NavLink>
+                    <NavLink className="a2">О КОМПАНИИ <div className='dot'></div></NavLink>
+                    <NavLink className="a">ПРОДУКЦИЯ</NavLink>
+                    <NavLink className="a">УСЛУГИ</NavLink>
+                    <NavLink className="a">АКЦИИ И НОВОСТИ</NavLink>
+                    <NavLink className="a6">ОБРАТНАЯ СВЯЗЬ</NavLink>
                 </div>
                 {/* menu */}
                 {/* analizator */}
@@ -84,11 +85,18 @@ function Head(props) {
                         <p className='t2 mt-4'>Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии</p>
                         <button className='btn1 mt-4'>Подробнее</button>
                     </div>
-                    <div className="analizator_img pt-5">
+                    <div className="analizator_img pt-4">
                         <img width="680px" src={analizator} alt="analizator" />
                     </div>
                 </div>
                 {/* analizator */}
+                {/* dots */}
+                <div className="dots">
+                    <div className="dot1"></div>
+                    <div className="dot2"></div>
+                    <div className="dot1"></div>
+                </div>
+                {/* dots */}
             </div>
         </div>
     );
