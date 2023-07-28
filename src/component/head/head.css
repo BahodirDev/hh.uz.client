@@ -1,0 +1,184 @@
+.head {
+    width: 100%;
+    height: 100vh;
+    background: url(./blur-hospital\ 1.png), lightgray 50% / cover no-repeat;
+    background-size: 100%;
+}
+
+
+/* navbar */
+.navbar {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.loc p {
+    width: 163px;
+}
+
+.icon {
+    background: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tel_number p {
+    margin: 0;
+}
+
+.loc {
+    width: 233px;
+    justify-content: space-between;
+}
+
+.tel {
+    width: 205px;
+    justify-content: space-between;
+}
+
+.loc_tel {
+    width: 470px;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: -20px;
+}
+
+.fg_img {
+    border-radius: 50%;
+}
+
+.search {
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+    color: #0D4C93;
+}
+
+.fb_icon {
+    background: white;
+    align-items: center;
+    width: 153px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: 50px;
+}
+
+.fb_icon p {
+    font-size: 13px;
+    margin-top: 13px;
+}
+
+.flag {
+    width: 135px;
+}
+
+/* navbar */
+
+/* menu */
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+    color: #0D4C93;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: #00000020 2px solid;
+}
+
+.a2 {
+    text-decoration: none;
+    color: #0d4b937b;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: #00000020 2px solid;
+}
+
+.a6 {
+    text-decoration: none;
+    color: #0D4C93;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    background: #0d4b937b;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+    left: 30px;
+}
+
+/* menu */
+
+/* analizator */
+.analizator {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.t1 {
+    color: #0D4C93;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 4.5px;
+    width: 500px;
+}
+
+.t2 {
+    color: #363535;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    width: 610px;
+}
+
+.btn1{
+    width: 270px;
+    height: 60px;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+    border: none;
+}
+/* analizator */
