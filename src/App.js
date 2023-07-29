@@ -1,5 +1,6 @@
 import './App.css';
 import Company from './component/company/Company';
+import Footer from './component/footer/Footer';
 import Head from './component/head/Head';
 import Novosti from './component/novosti/Novosti';
 import Partner from './component/partner/Partner';
@@ -15,6 +16,7 @@ function App() {
       <Company/>
       <Novosti/>
       <Partner/>
+      <Footer/>
     </div>
   );
 }
