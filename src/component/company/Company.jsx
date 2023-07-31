@@ -12,7 +12,7 @@ function Company(props) {
                         <div className="lg_border1">
                             <div className="lg_border2">
                                 <div className="lg_border3">
-                                    <img src={logo} alt="logo" />
+                                    <img className='lg_logo' src={logo} alt="logo" />
                                 </div>
                             </div>
                         </div>

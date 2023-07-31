@@ -34,7 +34,7 @@
     border: none;
     position: relative;
     top: 90px;
-    left: 10px;
+    left: 30px;
 }
 .pt_btn1{
     width: 45px;
@@ -48,5 +48,22 @@
     border: none;
     position: relative;
     top: 45px;
-    left: 1060px;
+    left: 1220px;
+}
+
+@media (max-width:426px) {
+    .pt_logo_box{
+        grid-template-columns: 1fr;
+    }
+    .partner{
+        height: 190vh;
+    }
+    .pt_btn1{
+        left: 260px;
+        top: 400px;
+    }
+    .pt_btn{
+        left: -10px;
+        top: 445px;
+    }
 }
