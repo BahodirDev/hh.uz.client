@@ -139,7 +139,7 @@
     border-radius: 50%;
     position: relative;
     top: -15px;
-    left: 30px;
+    left: 20px;
 }
 
 /* menu */
@@ -153,14 +153,14 @@
 }
 .analizator_img{
     width: 450px;
-    height: 450px;
+    height: 430px;
     border: 60px solid rgba(0, 201, 201, 0.20);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .t1 {
     color: #0D4C93;
@@ -198,7 +198,7 @@
     width: 200px;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .dot1{
     width: 25px;
@@ -214,3 +214,116 @@
     background: #00C9C9;
 }
 /* dots */
+@media (max-width:426px){
+    .navbar{
+        flex-direction: column;
+        height: 240px;
+    }
+    .analizator{
+        flex-direction: column;
+        text-align: center;
+    }
+    .loc_tel {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .logo {
+        margin-top: -40px;
+    }
+    .head{
+        height: 160vh;
+    }
+    .a{
+        font-size: 8px;
+    }
+    .a2{
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .a6{
+        font-size: 8px;
+    }
+    .menu{
+        height: 30px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .dot{
+        left: 0.5px;
+        top: -9px;
+        width: 5px;
+        height: 5px;
+    }
+    .t1{
+        width: 100%;
+        width: 100%;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .t2{
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .analizator_img{
+        width: 60%;
+        height: 200px;
+        margin-left: 0px;
+        border: 30px solid rgba(0, 201, 201, 0.20);
+    }
+    .analiz_img{
+        width: 300px;
+        margin-top: -50px;
+    }
+    .dots{
+        margin: 20px auto;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .icon svg{
+        width: 20px;
+        height: 20px;
+    }
+    .loc p{
+        width: 130px;
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .loc{
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .tel_number p{
+        font-size: 10px;
+    }
+    .tel{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .loc_tel{
+        margin-top: -35px;
+    }
+    .search{
+        width: 100%;
+    }
+    .fb_icon{
+        height: 40px;
+    }
+    .fb_icon svg{
+        height: 20px;
+    }
+    .fb_icon img{
+        height: 25px;
+    }
+    .fb_icon p{
+        font-size: 10px;
+    }
+    .btn1{
+        height: 45px;
+    }
+}

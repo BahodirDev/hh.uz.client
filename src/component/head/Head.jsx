@@ -96,7 +96,7 @@ function Head(props) {
                         <button className='btn1 mt-4'>Подробнее</button>
                     </div>
                     <div className="analizator_img pt-4">
-                        <img width="680px" src={analizator} alt="analizator" />
+                        <img className='analiz_img' width="680px" src={analizator} alt="analizator" />
                     </div>
                 </div>
                 {/* analizator */}

@@ -1,6 +1,7 @@
 .novosti {
     width: 100%;
     min-height: 100vh;
+    margin-top: 100px;
 }
 
 .nv_post_box {
@@ -163,4 +164,47 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media (max-width:426px) {
+    .nv_post_box {
+        flex-direction: column;
+        height: 330vh;
+        margin-top: 0px;
+    }
+    .novosti{
+        height: 350vh;
+        text-align: center;
+    }
+    .nv_post{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .nv_bottom{
+        margin-top: -60px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bm_1{
+        margin: 0 auto;
+    }
+    .bm_2{
+        margin: 0 auto;
+    }
+    .nv_img{
+        width: 90%;
+        height: 180px;
+    }
+    .p3{
+        line-height: 15px;
+    }
+    .btn3{
+        width: 90%;
+    }
+    .btn6{
+        width: 90%;
+    }
+    .btn5{
+        left: 240px;
+    }
 }

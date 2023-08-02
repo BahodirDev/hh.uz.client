@@ -36,7 +36,7 @@ function Produksiya(props) {
                     </div>
                     <div className="product">
                         <div className="pr_img">
-                            <img width="350px" src={img4} alt="img" />
+                            <img width="100%" src={img4} alt="img" />
                         </div>
                         <p>ДИАБЕТ</p>
                         <button className='btn1'>Посмотреть все</button>

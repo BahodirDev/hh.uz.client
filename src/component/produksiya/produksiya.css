@@ -69,3 +69,18 @@
     font-weight: 400;
     line-height: normal;
 }
+
+@media (max-width:426px){
+    .product_box{
+        grid-template-columns: 1fr;
+        width: 100%;
+        text-align: center;
+    }
+    .product {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .btn1{
+        width: 80%;
+    }
+}
